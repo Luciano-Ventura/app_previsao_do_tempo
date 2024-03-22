@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-big {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c67;
+    color: #FFFFFF;
+    width: calc(100% - 70px);
+
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c67;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    margin-top: 5px ;
+}
+
+.img-search {
+    width: 20px;
+}
+
+.container-medium {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.container-small {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-forecast {
+    color: #FFFFFF;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.text-moisture {
+    color: #FFFFFF;
+    margin-top: 20px;
+}
